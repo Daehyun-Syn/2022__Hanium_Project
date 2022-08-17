@@ -16,9 +16,9 @@ public class AcidRainController {
 
 
 
-    @GetMapping(value = "index")
+    @GetMapping(value = "Playduo/AcidRain")
     public String Index() {
-        return "/index";
+        return "/AcidRain/game";
 
     }
 
